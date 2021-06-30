@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    font-family: freight-sans-pro, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: freight-display-pro;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1.3em;
+    color: #64605F;
+    line-height: 1.8em;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container{
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+}
+.line-text{
+    color: #47B4A1;
+    position: relative;
+    margin-left: 110px;
+}
+.line-text::before{
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #47B4A1;
+    position: absolute;
+    left: -100px;
+    top: 17px;
+}
+
+/* =======================
+ Welcome Banner 
+ ========================= */
+
+.banner .banner-img img{
+    width: 100%;
+    margin-top: 70px;
+}
+.banner{
+    padding-top: 150px;
+}
+.banner h1{
+    font-size: 2.5em;
+}
+
+/* =======================
+ Digital Strategies 
+ ========================= */
+
+.strategy .banner-img{
+    position: relative;
+}
+.strategy .banner-img img{
+    margin-top: 70px;
+}
+.strategy .banner-img img.pattern-1{
+    width: 204px;
+}
+.strategy .banner-img img.image{
+    position: absolute;
+    width: 260px;
+    left: 20px;
+    top: 30px;
+}
+
+/* =======================
+ Our Philosophy
+ ========================= */
+
+ .philosophy .philosophy-text{
+     margin-top: 50px;
+ }
+
+/* =======================
+ Who we are
+ ========================= */
+ .wwa{
+     padding-top: 10px;
+     padding-bottom: 60px;
+     background-color: #F8F8F8;
+     margin-top: 70px;
+ }
+ .wwa .wwa-text{
+     margin-top: 50px;
+ }
+
+/* =======================
+ Our Platforms
+ ========================= */
+ .platform .platform-text{
+     margin-top: 50px;
+ }
+ .platform .platform-text img{
+     width: 100%;
+ }
+ .platform .platform-text a{
+     text-decoration: none;
+     color: #47B4A1;
+     font-weight: 400;
+ }
+
+ /* =======================
+ Our Portfolio Companies
+ ========================= */
+.portfolio .logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio .logo img{
+    width: 100px;
+}
+
+/* =======================
+ Newsletter
+ ========================= */
+ .newsletter .form form{
+     position: relative;
+     margin-bottom: 30px;
+ }
+ .newsletter .form form [type='email']{
+     width: 250px;
+     padding: 10px 10px;
+     border: 1px solid #47B4A1;
+ }
+ .newsletter .form form [type='submit']{
+     padding: 10px 10px;
+     position: absolute;
+     background-color: #47B4A1;
+     border: 1px solid #47B4A1;
+     color: #F8F8F8;
+     left: 200px;
+ }
+ .newsletter .meta{
+     margin-bottom: 50px;
+ }
+ .newsletter .meta a{
+     text-decoration: none;
+     color: #000;
+ }
+ .newsletter .meta a img{
+     width: 100%;
+ }
+.newsletter .meta a .category{
+     padding: 15px 15px;
+     border: 1px solid #64605F;
+     max-width: 150px;
+     text-align: center;
+     border-radius: 50px;
+     margin-top: 10px;
+}
+.newsletter .see-all{
+     color: #47B4A1;
+     font-weight: 400;
+     text-align: right;
+     display: block;
+}
+
+ /* =======================
+ Recognized
+ ========================= */
+section.recognized{
+    background-color: #F8F8F8;
+}
+ .recognized .logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.recognized .logo img{
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+
+ /* =======================
+ Footer
+ ========================= */
+footer{
+    padding-top: 50px;
+    background-color: #0D2C25;
+}
+footer .logo{
+    width: 151px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+footer .social{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+footer .social a{
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: block;
+
+}
+footer .social a:nth-child(4) img{
+    margin-top: 2px;
+    width: 30px;
+}
+footer .footer-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+footer .footer-link a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer .copyright{
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .copyright div,
+footer .copyright a{
+    font-family: freight-display-pro;
+    color: #0D2C25;
+    text-align: center;
+}
+footer .copyright a{
+    display: block;
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
