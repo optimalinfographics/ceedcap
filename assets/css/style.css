@@ -16,7 +16,7 @@ h2{
     font-size: 2em;
 }
 h3{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 p{
     font-size: 1.3em;
@@ -132,8 +132,7 @@ section.sec-padding{
     justify-content: space-between;
 }
 .portfolio .logo img{
-    width: 100px;
-    height: auto;
+    width: 120px;
 }
 
 /* =======================
@@ -194,7 +193,7 @@ section.recognized{
     margin-top: 40px;
 }
 .recognized .logo img{
-    width: 100px;
+    width: 120px;
     margin-bottom: 40px;
 }
 
@@ -309,7 +308,7 @@ footer .copyright a{
     }
     .strategy .container .strategy-text{
         width: 45%;
-        margin-top: 100px;
+        margin-top: 140px;
     }
     .strategy .banner-img img.image {
         width: 400px;
